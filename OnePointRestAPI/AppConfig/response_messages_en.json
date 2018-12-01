@@ -1,0 +1,16 @@
+﻿{
+  "invalid_credentials": "Invalid Username or Password",  
+  "authentication_success": "Authentication Success",
+  "un_authorized_access": "Unauthorized access",
+  "InvalidUsername": "Account doesn't exist",
+  "UpdatedSuccessfully_Msg": "Updated Successfully",
+  "Update_Failure": "Update Failed",
+  "Retrieval_Failure": "Records retrieval failure",
+  "Retrieval_Success": "Retrived Successfully",
+  "MasterExists": "Data already exists.",
+  "Save_Failure": "Save failed",
+  "Save_Success": "Saved Successfully",
+  "Delete_Failure": "Delete failed",
+  "Delete_Success": "Deleted Successfully"
+
+}

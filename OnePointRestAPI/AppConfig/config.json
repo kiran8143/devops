@@ -1,0 +1,86 @@
+﻿{
+  "App_Environment": "Dev",
+  "Environment_Name_Dev": "Development",
+  "Environment_Name_Tst": "Testing",
+  "URL_WebApp_Absolute_": "http://0.0.0.0:5000/",
+  "EnableAutherization": true,
+  "Logs_Exception_Name": "Exception",
+  "Logs_Information_Name": "Information",
+  "Logs_Enabled": "true",
+  "App_Policy_Name": "OnePointRestAPI",
+  "EncryptionKey": "MA@K#V2SP$BNI9_92*12",
+  "Swagger_Configuration": {
+    "Route": "/api/docs/v1/swagger.json",
+    "AppName": "OnePointRestAPI",
+    "API_PREFIX": "",
+    "Info": {
+      "Version": "v1",
+      "Title": "OnePointRestAPI",
+      "Description": "ASP.NET Core REST services for managing your API ecosystem\n\n## Business Domains and Sub Domains ## \n Breakdown your business into domains and sub domains in order to better manage your APIs. \n ## Tags ##\n Create tags to help you classify your APIs on multiple dimensions or link APIs that form cross-cutting business processes \n ## API Management ## \n Manage creation, update and deletion of the APIs in your registry. Classify your APIs by business sub domain and add tags for further classification.",
+      "TermsOfService": "None",
+      "Contact": {
+        "Name": "Uday kiran",
+        "Email": "",
+        "Url": "https://twitter.com/uday"
+      },
+      "License": {
+        "Name": "Use under LICX",
+        "Url": "https://example.com/license"
+      }
+    },
+    "ExternalDocs": {
+      "Description": "OnePointRest Developer Documentation",
+      "Url": "http://mystifly.com/"
+    }
+  },
+  "Cors": {
+    "OnePointRestAPIPolicy": "OnePointRestAPIPolicy"
+  },
+  "RestEndPoints": {
+    "CoreBaseEndPoint": "http://192.168.0.249/APIV2/CoreAPIS/",
+    "SoapBaseEndPoint": "http://192.168.0.249/APIV2/",
+    "SearchEngineBaseEndPoint": "http://192.168.0.249/CoreAPI/"
+  },
+  "RoutesToExcludeFromAuthentication": "/api/values,/api/CreateSession",
+  "ConnectionStrings": {
+    "RedisConnection": "40.124.1.201:6379,password=,ssl=False,abortConnect=False",
+    "TTL_In_min": 20
+  },
+  "LogProfilerUrl": "https://funclogcollector.azurewebsites.net/api/ProfilerLogCollector?code=ESK9hHfikLbE7Q/K5t0mwJZJnIauYKjLCwdUanaA67ILyMYKfg6CdA==&index=profilertest",
+  "LogFormat": {
+    "RequestType": null,
+    "RequestTime": null,
+    "Origin": null,
+    "Destination": null,
+    "OnwardDate": null,
+    "DepartDate": null,
+    "ClientId": null,
+    "MemberId": null,
+    "ClientName": null,
+    "MemberName": null,
+    "Airline": null,
+    "SearchId": null,
+    "Fsc": null,
+    "Responsetime": null,
+    "IPAddress": null,
+    "GDS": null,
+    "PCC": null,
+    "BookingRef": null,
+    "IsSuccess": null,
+    "RevalStatus": "NoChange",
+    "Type": "ApiProfiler",
+    "ContainerType": "Daily",
+    "Product": "OnePoint",
+    "Docs": [
+      {
+        "DocType": "Request",
+        "Content": "put your request here in string"
+      },
+      {
+        "DocType": "Response",
+        "Content": "put your response in string"
+      }
+    ]
+  }
+
+}

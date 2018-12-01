@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePointRestAPI", "OnePointRestAPI\OnePointRestAPI.csproj", "{F6D012A7-3B78-46CD-855A-85A9C923DE95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6D012A7-3B78-46CD-855A-85A9C923DE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D012A7-3B78-46CD-855A-85A9C923DE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D012A7-3B78-46CD-855A-85A9C923DE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D012A7-3B78-46CD-855A-85A9C923DE95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8063985D-9366-4D47-965C-C0B8EC7150A0}
+	EndGlobalSection
+EndGlobal

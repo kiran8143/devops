@@ -1,0 +1,43 @@
+﻿{
+  "Post_Add_PostTicketingResponse": "PTRId,PTRType,MFRef,PTRStatus,VoidingWindow,VoidQuotes,Error",
+  "Post_Add_PTRReissueResponse": "PTRId,PTRType,SegmentPreferences,Error",
+  "Post_Add_MarkAsReadResponse": "Id,RequestType,Status,Error",
+  "Post_Search_PostTicketingRequest": "PTRDetail,Error",
+  "Post_Search_CreditNoteRequest": "Type,Transactions,Error",
+  "Post_Search_InvoiceRequest": "Type,Transactions,Error",
+  "Post_Search_TripDetailsRequest": "TripDetailsResult,Error",
+  "Post_Search_PostTicketingJson": {
+    "PTRDetail": [
+      {
+        "PTRId": "integer",
+        "PTRType": "string",
+        "MFRef": "string",
+        "PTRStatus": "string"
+      }
+    ]
+
+  },
+  "Post_Add_PostTicketingJson": {
+    "PTRId": "integer",
+    "PTRType": "string",
+    "MFRef": "string",
+    "ClientId": "string",
+    "MemberId": "string",
+    "PTRStatus": "string",
+    "VoidingWindow": "string",
+    "VoidQuotes": [
+      {
+        "FirstName": "string",
+        "LastName": "string",
+        "Title": "string",
+        "PassengerType": "string",
+        "ETicket": "string",
+        "AdminCharges": "string",
+        "Currency": "string"
+      }
+    ]
+  },
+  "Post_Search_FlightJson": {
+
+  }
+}
