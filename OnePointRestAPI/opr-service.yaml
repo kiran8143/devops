@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: opr-deployment
+  labels:
+    app: opr-deployments
+spec:
+  ports:
+  - port: 80
+    targetPort: 5000
+  type: LoadBalancer
+  selector:
+    app: openrestapi

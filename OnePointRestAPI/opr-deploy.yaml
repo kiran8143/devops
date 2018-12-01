@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opr-deployment
+  labels:
+    app: openrestapi
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: openrestapi
+  template:
+    metadata:
+      labels:
+        app: openrestapi
+    spec:
+      containers:
+      - name: opr-deployment
+        image: kiran8143/openrestapi
+        ports:
+        - containerPort: 80

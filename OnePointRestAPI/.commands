@@ -1,0 +1,76 @@
+apt-get update
+    2  sudo apt-get update
+    3  df -h
+    4  exit
+    5  pwd
+    6  python --version
+    7  sudo apt install python3
+    8  sudo apt install python
+    9  python --version
+   10  python -v
+   11  sudo apt -y remove docker docker-engine docker.io
+   12  apt update
+   13  sudo apt update
+   14  sudo apt install -y apt-transport-https software-properties-common ca-certificates curl wget
+   15  wget https://download.docker.com/linux/ubuntu/gpg 
+   16  sudo apt-key add gpg
+   17  echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" | sudo tee /etc/apt/sources.list.d/docker.list
+   18  sudo apt update
+   19  sudo apt-cache policy docker-ce
+   20  sudo apt install -y docker-ce
+   21  sudo systemctl start docker
+   22  sudo systemctl enable docker
+   23  docker --version
+   24  docker images
+   25  sudo groupadd docker
+   26  sudo useradd raj
+   27  sudo deleteuser raj
+   28  sudo deluser raj
+   29  sudo deleteuser venkat
+   30  sudo useradd venkat
+   31  sudo usermod -aG docker raj
+   32  sudo usermod -aG docker venkat
+   33  docker images
+   34  exit
+   35  docker images
+   36  apt-get update
+   37  sudo apt-get update
+   38  cd devops/
+   39  ll
+   40  cd OnePointRestAPI/
+   41  pwd
+   42  cd ..
+   43  mv Dockerfie ~/devops/OnePointRestAPI
+   44  cd OnePointRestAPI/
+   45  ll
+   46  cat Dockerfie 
+   47  docker build -t onerestapi .
+   48  ll
+   49  mv Dockerfie Dockerfile
+   50  docker build -t onerestapi .
+   51  docker run -d -p 8080:5000 --name=restapi onerestapi
+   52  docker ps -a
+   53  docker tag onerestapi kiran8143/openrestapi
+   54  docker login
+   55  docker push kiran8143/openrestapi
+   56  history
+   57  ll
+   58  kubectl get nodes
+   59  ls
+   60  touch opr-deploy.yaml
+   61  touch opr-service.yaml
+   62  kubectl create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=kirn8143 --docker-password=Power@1234
+   63  kubectl get secrets
+   64  ls
+   65  kubectl apply opr-deploy.yaml 
+   66  kubectl apply -f opr-deploy.yaml 
+   67  kubectl get pods
+   68  kubectl apply -f opr-deploy.yaml 
+   69  kubectl get pods
+   70  kubectl apply -f opr-deploy.yaml 
+   71  kubectl get pods
+   72  ls
+   73  kubectl apply -f opr-service.yaml 
+   74  kubectl get service
+   75  kubectl get nodes
+   76  kubectl get service
